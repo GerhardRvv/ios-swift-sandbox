@@ -18,7 +18,7 @@ class SampleData {
     }
     
     var friend: MovieFriend {
-        MovieFriend.sampledata.first!
+        MovieFriend.sampleData.first!
     }
     
     var movie: Movie {
@@ -42,13 +42,18 @@ class SampleData {
     }
     
     private func insertSampleData() {
-        for friend in MovieFriend.sampledata {
+        for friend in MovieFriend.sampleData {
             context.insert(friend)
         }
         
         for movie in Movie.sampleData {
             context.insert(movie)
         }
+        
+        MovieFriend.sampleData[0].favoriteMovie = Movie.sampleData[1]
+        MovieFriend.sampleData[2].favoriteMovie = Movie.sampleData[0]
+        MovieFriend.sampleData[3].favoriteMovie = Movie.sampleData[3]
+        MovieFriend.sampleData[3].favoriteMovie = Movie.sampleData[0]
     }
     
 }

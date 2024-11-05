@@ -11,15 +11,16 @@ import SwiftData
 @Model
 class MovieFriend {
     var name: String
+    var favoriteMovie: Movie?
     
     init(name: String) {
         self.name = name
     }
     
-    static let  sampledata = [
+    static let  sampleData = [
         MovieFriend(name: "Gerhard"),
-        MovieFriend(name: "Alessa"),
-        MovieFriend(name: "Meggan"),
-        MovieFriend(name: "Gienatzy")
+        MovieFriend(name: "Gerardo"),
+        MovieFriend(name: "Jerry"),
+        MovieFriend(name: "Gerry")
     ]
 }

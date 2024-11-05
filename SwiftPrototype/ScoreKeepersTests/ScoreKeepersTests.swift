@@ -14,7 +14,7 @@ struct ScoreKeepersTests {
     func resetScores(to newValue: Int) async throws {
         var scoreboard = Scoreboard(players: [
             Player(name: "Gerhard", score: 0),
-            Player(name: "Alessa", score: 5)
+            Player(name: "Gerardo", score: 5)
         ])
         scoreboard.resetScores(to: 0)
         
@@ -28,13 +28,13 @@ struct ScoreKeepersTests {
         let scoreboard = Scoreboard(
             players: [
                 Player(name: "Gerhard", score: 0),
-                Player(name: "Alessa", score: 4),
+                Player(name: "Gerardo", score: 4),
             ],
             state: .gameOver,
             doesHighestScoreWin: true
         )
         let winners = scoreboard.winners
-        #expect(winners == [Player(name: "Alessa", score: 4)])
+        #expect(winners == [Player(name: "Gerardo", score: 4)])
     }
     
     @Test("Lowest score wins")
@@ -42,13 +42,13 @@ struct ScoreKeepersTests {
         let scoreboard = Scoreboard(
             players: [
                 Player(name: "Gerhard", score: 2),
-                Player(name: "Alessa", score: 1)
+                Player(name: "Gerardo", score: 1)
             ],
             state: .gameOver,
             doesHighestScoreWin: false
         )
         let winners = scoreboard.winners
-        #expect(winners == [Player(name: "Alessa", score: 1)])
+        #expect(winners == [Player(name: "Gerardo", score: 1)])
     }
 
 }

@@ -15,7 +15,7 @@ struct FavoriteMoviesPage: View {
             }
             
             Tab("Movies", systemImage: "film.stack") {
-                MovieList()
+                FilteredMovieList()
             }
         }
     }
