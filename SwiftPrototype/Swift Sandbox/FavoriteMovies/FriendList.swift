@@ -15,13 +15,19 @@ struct FriendList: View {
     
     var body: some View {
         NavigationSplitView {
-            List {
-                ForEach(friends) { friend in
-                    NavigationLink(friend.name) {
-                        FriendDetail(friend: friend, isNew: false)
+            Group {
+                if !friends.isEmpty {
+                    List {
+                        ForEach(friends) { friend in
+                            NavigationLink(friend.name) {
+                                FriendDetail(friend: friend, isNew: false)
+                            }
+                        }
+                        .onDelete(perform: deleteFriends(indexes:))
                     }
+                } else  {
+                    ContentUnavailableView("Add Friends", systemImage: "person.and.person")
                 }
-                .onDelete(perform: deleteFriends(indexes:))
             }
             .navigationTitle("Friends")
             .toolbar() {
@@ -61,4 +67,9 @@ struct FriendList: View {
 #Preview {
     FriendList()
         .modelContainer(SampleData.shared.modelContainer)
+}
+
+#Preview("Empty List") {
+    FriendList()
+        .modelContainer(for: MovieFriend.self, inMemory: true)
 }
