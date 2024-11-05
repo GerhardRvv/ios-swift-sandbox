@@ -36,5 +36,21 @@ The project consists of the following modules:
 
 ## Screenshots
 
+
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 11 01 03](https://github.com/user-attachments/assets/c2579e9a-ada0-4a9b-b028-b7e4d3881259)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 11 00 55](https://github.com/user-attachments/assets/7dbf2073-ce39-459d-b942-082df391b2df)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 11 00 50](https://github.com/user-attachments/assets/df5c7923-627a-47a2-a531-9092930c1476)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 11 00 45](https://github.com/user-attachments/assets/ab792634-e769-48ba-aa2d-eb9f248a4fd5)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 11 00 05](https://github.com/user-attachments/assets/78af291f-3bb7-4e75-aae7-2052bc2630ef)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 10 59 46](https://github.com/user-attachments/assets/b36d9e56-2e4f-48ac-aa75-58b7b6b708db)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 10 59 01](https://github.com/user-attachments/assets/07fec7c1-d643-4aff-8a7b-15be84b3b522)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 10 58 49](https://github.com/user-attachments/assets/fef29223-f123-48f0-b47c-fc4e48c7bd71)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 10 58 18](https://github.com/user-attachments/assets/c5c5f877-b50c-498e-80d5-7bf59ec56b4d)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 10 58 08](https://github.com/user-attachments/assets/dfa405b7-5718-4242-9df3-ba7a09c21ef2)
+![Simulator Screenshot - iPhone 16 Pro - 2024-11-05 at 11 01 08](https://github.com/user-attachments/assets/0e9c420f-de7c-48c0-bda0-770d3011df67)
+
+
+
+
 ## License
 This project is open-source and is for educational purposes. 
