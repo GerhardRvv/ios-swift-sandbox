@@ -13,7 +13,12 @@ struct SwiftPrototypeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .modelContainer(for: [Friend.self, Pal.self, MovieFriend.self])
+                .modelContainer(for: [
+                    Friend.self,
+                    Pal.self,
+                    MovieFriend.self,
+                    Movie.self
+                ])
         }
     }
 }
